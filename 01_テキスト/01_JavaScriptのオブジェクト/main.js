@@ -16,7 +16,22 @@ const hikakin = {
 // hikakin オブジェクト を真似して自分のプロフィールをオブジェクトで作ってください。
 // オブジェクトにはたくさんのプロパティを追加してください。
 
-// const me = { name: 'あなたのなまえ' }
+const abiko = {
+  name: "あびこ",
+  age: 23,
+  hobbies: ["ラジオ聴取", "読書"],
+  address: {
+    country: "日本",
+    city: "仙台",
+  },
+  sayHello: function () {
+    console.log("こんにちは！")
+  },
+}
+console.log(abiko)
+console.log(abiko.name)
+console.log(abiko.hobbies)
+console.log(abiko.sayHello)
 
 // ブラウザのコンソールを開いてオブジェクトが正しく作れているか確認してみましょう👀
 
@@ -24,3 +39,4 @@ const hikakin = {
 
 // TRY: 練習問題２
 // hikakin オブジェクトに入っている sayHello メソッドを実行してください。
+console.log(hikakin.sayHello())
