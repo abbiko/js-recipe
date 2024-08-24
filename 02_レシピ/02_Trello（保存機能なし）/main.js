@@ -12,6 +12,7 @@ addButton.onclick = function () {
   inputElement.value = ""
 }
 
+//共通の処理：テキストからカードを作る
 const createCard = function (text) {
   //カードの枠を作る
   const card = document.createElement("div")
